@@ -9,6 +9,6 @@ interface ISingleton {
 	 *
 	 * @return ISingleton
 	 */
-	public static function make();
+	public static function make() : ISingleton;
 
 }
