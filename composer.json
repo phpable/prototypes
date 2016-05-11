@@ -1,0 +1,23 @@
+{
+	"name": "eggbe/prototype",
+	"version": "0.1.0",
+	"type": "library",
+	"keywords": ["prototypes", "abstracts", "interfaces"],
+	"description": "Abstract library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "hacpaka",
+			"email": "hacpaka@eggbe.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"eggbe/helpers": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Eggbe\\Soauth\\": "src/"
+		}
+	}
+}
