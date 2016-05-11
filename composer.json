@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Eggbe\\Soauth\\": "src/"
+			"Eggbe\\Prototypes\\": "src/"
 		}
 	}
 }
