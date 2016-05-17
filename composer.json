@@ -1,6 +1,6 @@
 {
 	"name": "eggbe/prototype",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"type": "library",
 	"keywords": ["prototypes", "abstracts", "interfaces"],
 	"description": "Abstract library",
