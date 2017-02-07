@@ -1,6 +1,6 @@
 ## Introduction
-This is the support library designed to help make our code more universal and standardized. 
-You can't get super power when using of this package in your applications but you could to try if you wish.        
+This is the support library designed to help us make our code more universal and standardized. 
+You can't get a super power when using of this package in your applications but you could to try if you wish.        
 
 
 ## Requirements
@@ -19,13 +19,13 @@ This library includes only abstractions and interfaces which can be useful in sp
 
 
 #### Type-Casting
-	* IArrayable
-	* IStringable
-	* TStringable
-	
+* IArrayable
+* IStringable
+* TStringable
+
 #### Behavior
-	* TUnclonable
-	* TUncreatable
+* TUnclonable
+* TUncreatable
 
 ## Authors
 Made with love at [Eggbe](http://eggbe.com).
