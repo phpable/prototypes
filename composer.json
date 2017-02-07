@@ -2,7 +2,7 @@
 	"name": "eggbe/prototype",
 	"version": "0.1.1",
 	"type": "library",
-	"keywords": ["prototypes", "abstracts", "interfaces"],
+	"keywords": ["prototype", "abstract", "interfaces", "support", "type-casting", "elementary", "universalisation"],
 	"description": "Abstract library",
 	"license": "MIT",
 	"authors": [
