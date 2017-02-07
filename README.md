@@ -1,6 +1,6 @@
 ## Introduction
 This is the support library designed to help us make our code more universal and standardized. 
-You can't get a super power when using of this package in your applications but you could to try if you wish.        
+You can't get a super power when using of this package in your own applications but you could to try.        
 
 
 ## Requirements
