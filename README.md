@@ -20,7 +20,9 @@ This library includes only abstractions and interfaces which can be useful in sp
 
 #### Type-Casting
 * IArrayable
+* IPresentable
 * IRestorable
+* ISingleton
 * IStringable
 * TStringable
 
