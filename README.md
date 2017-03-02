@@ -20,15 +20,17 @@ This library includes only abstractions and interfaces which can be useful in sp
 
 #### Type-Casting
 * IArrayable
+* IArrayable
 * IPresentable
 * IRestorable
-* ISingleton
 * IStringable
 * TStringable
 
 #### Behavior
+* IExecutable
 * TUnclonable
 * TUncreatable
+* ISingleton
 
 ## Authors
 Made with love at [Eggbe](http://eggbe.com).
