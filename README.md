@@ -17,6 +17,7 @@ composer require eggbe/prototype
 ## Usage
 This library includes only abstractions and interfaces which can be useful in specific situations to make your code more clear and universal.   
 
+## Interfaces 
 
 #### Type-Casting
 * IArrayable
@@ -24,13 +25,20 @@ This library includes only abstractions and interfaces which can be useful in sp
 * IPresentable
 * IRestorable
 * IStringable
-* TStringable
 
 #### Behavior
 * IExecutable
+* IFillable
+* ISingleton
+
+## Implementations 
+
+#### Type-Casting
+* TStringable
+
+#### Behavior
 * TUnclonable
 * TUncreatable
-* ISingleton
 
 ## Authors
 Made with love at [Eggbe](http://eggbe.com).
