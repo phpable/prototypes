@@ -5,6 +5,7 @@ trait TFillable {
 
 	/**
 	 * Fill object values via array.
+	 *
 	 * @param array $Values
 	 * @throws \Exception
 	 */
