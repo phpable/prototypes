@@ -14,7 +14,7 @@ trait TAggregatable {
 	 * @return array
 	 */
 	protected static function aggregate(string $name) : array {
-		return array_merge(method_exists($class = get_parent_class(static::class), 'aggregate')
-			? call_user_func([$class, 'aggregate'], $name) : [], Arr::cast(Arr::get(get_class_vars(static::class), $name)));
+		return array_merge(Src::call([get_parent_class(static::class), 'aggregate'], $name, []),
+			Arr::cast(Arr::get(get_class_vars(static::class), $name)));
 	}
 }
