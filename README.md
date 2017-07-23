@@ -27,9 +27,12 @@ This library includes only abstractions and interfaces which can be useful in sp
 * IStringable
 
 #### Behavior
+* IAggregatable 
+* IGettable
 * IExecutable
 * IFillable
 * ISingleton
+* ISettable
 
 ## Implementations 
 
