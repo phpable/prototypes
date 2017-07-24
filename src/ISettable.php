@@ -8,11 +8,10 @@ interface ISettable {
 	 * @param $value
 	 * @return void
 	 */
-	public function __get(string $name, $value);
+	public function __set(string $name, $value);
 
 	/**
 	 * @param string $name
-	 * @return mixed
 	 * @return void
 	 */
 	public function __unset(string $name);

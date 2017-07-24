@@ -12,7 +12,9 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0.0"
+		"php": ">=7.0.0",
+		"eggbe/helpers": "dev-master",
+		"eggbe/reglib": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {

@@ -11,8 +11,8 @@ interface IGettable {
 
 	/**
 	 * @param string $name
-	 * @return mixed
+	 * @return bool
 	 */
-	public function __isset(string $name);
+	public function __isset(string $name): bool;
 }
 

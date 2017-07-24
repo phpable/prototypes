@@ -2,8 +2,6 @@
 namespace Eggbe\Prototype;
 
 use \Eggbe\Helper\Arr;
-use \Eggbe\Helper\Src;
-use \Eggbe\Reglib\Reglib;
 
 trait TAggregatable {
 

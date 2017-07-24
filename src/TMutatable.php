@@ -1,6 +1,7 @@
 <?php
 namespace Eggbe\Prototype;
 
+use \Eggbe\Helper\Arr;
 use \Eggbe\Helper\Src;
 use \Eggbe\Helper\Str;
 
@@ -10,20 +11,20 @@ trait TMutatable {
 	 * Checks if any mutater exists and returns the mutated value.
 	 *
 	 * @param string $prefix
-	 * Some prefix like 'get' or 'set' for example.
+	 * Any prefix like 'get' or 'set' to separate getters and setters for example.
 	 *
 	 * @param string $name
-	 * The value name will be converted into the camel case
-	 * by using underscores like a separator.
+	 * It will be converted into the camel case
+	 * via underscores like a separator.
 	 *
-	 * @param $default
-	 * The value to return  if mutator doesn't exists.
+	 * @param $params
+	 * Some parameters if needed.
 	 *
 	 * @return mixed
+	 * Params will be returned "as is" if the requested mutator doesn't exists.
 	 */
-	protected function mutate(string $prefix, string $name, $default) {
+	protected final function mutate(string $prefix, string $name, $params = []) {
 		return method_exists($this, $method = Src::tocm(strtolower(Str::join('_', $prefix, $name , 'property'))))
-			? call_user_func_array([$this, $method], []) : $default;
+			? call_user_func_array([$this, $method], Arr::cast($params)) : $params;
 	}
-
 }
