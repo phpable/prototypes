@@ -35,6 +35,10 @@ This library includes only abstractions and interfaces which can be useful in sp
 * ISingleton
 * ISettable
 
+#### Features 
+* THierarchical
+* TRetrospective
+
 ## Implementations 
 
 #### Type-Casting
