@@ -1,6 +1,6 @@
 {
 	"name": "eggbe/prototype",
-	"version": "0.1.10",
+	"version": "0.1.11",
 	"type": "library",
 	"keywords": ["prototype", "abstract", "interfaces", "support", "type-casting", "behavior", "elementary", "universalisation"],
 	"description": "Abstract library",
