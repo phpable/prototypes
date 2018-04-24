@@ -30,6 +30,7 @@ This library includes only abstractions and interfaces which can be useful in sp
 * IAggregatable
 * ICountable 
 * IGettable
+* ICountable 
 * IExecutable
 * IFillable
 * ISingleton
