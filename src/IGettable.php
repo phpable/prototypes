@@ -1,5 +1,5 @@
 <?php
-namespace Eggbe\Prototype;
+namespace Able\Prototypes;
 
 interface IGettable {
 

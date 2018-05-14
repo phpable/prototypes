@@ -1,8 +1,8 @@
 <?php
-namespace Eggbe\Prototype;
+namespace Able\Prototypes;
 
 use \Eggbe\Helper\Arr;
-use \Eggbe\Prototype\THierarchical;
+use \Able\Prototypes\THierarchical;
 
 trait TRetrospective {
 	use THierarchical;

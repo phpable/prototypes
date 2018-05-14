@@ -1,5 +1,5 @@
 <?php
-namespace Eggbe\Prototype;
+namespace Able\Prototypes;
 
 use \Eggbe\Helper\Arr;
 use \Eggbe\Helper\Src;

@@ -1,21 +1,19 @@
 ## Introduction
-This is the support library designed to help us make our code more universal and standardized. 
-You can't get a super power when using of this package in your own applications but you could to try.        
-
+The phpABLE abstractions library designed to help us make the code more universal and standardized. 
 
 ## Requirements
-* PHP >= 7.0.0
+* PHP >= 7.1.0
 
 
 ## Install
-Here's a pretty simple way to install Eggbe/Prototype into your project via [Composer](http://getcomposer.org):
+Here's a pretty simple way to install Able/Prototypes into your project via [Composer](http://getcomposer.org):
 
 ```bash
-composer require eggbe/prototype
+composer require able/prototypes
 ```
 
 ## Usage
-This library includes only abstractions and interfaces which can be useful in specific situations to make your code more clear and universal.   
+This library includes only abstract classes, traits, and interfaces implement and standardize common features and behavior. 
 
 ## Interfaces 
 
@@ -48,6 +46,7 @@ This library includes only abstractions and interfaces which can be useful in sp
 #### Behavior
 * TUnclonable
 * TUncreatable
+* TCallable
 
 ## Authors
 Made with love at [Eggbe](http://eggbe.com).
@@ -58,4 +57,4 @@ We always welcome your feedback at [github@eggbe.com](mailto:github@eggbe.com).
 
 
 ## License
-This package is released under the [MIT license](https://github.com/eggbe/prototype/blob/master/LICENSE).
+This package is released under the [MIT license](https://github.com/able/prototypes/blob/master/LICENSE).

@@ -1,9 +1,9 @@
 {
-	"name": "eggbe/prototype",
-	"version": "0.1.11",
+	"name": "able/prototypes",
+	"version": "1.0",
 	"type": "library",
-	"keywords": ["prototype", "abstract", "interfaces", "support", "type-casting", "behavior", "elementary", "universalisation"],
-	"description": "Abstract library",
+	"keywords": ["able", "prototypes", "abstractions", "type-casting", "behavior", "universalisation"],
+	"description": "phpABLE abstractions library",
 	"license": "MIT",
 	"authors": [
 		{
@@ -18,7 +18,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Eggbe\\Prototype\\": "src/"
+			"Able\\Prototypes\\": "src/"
 		}
 	}
 }
