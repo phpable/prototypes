@@ -54,7 +54,7 @@ Made with love at [Eggbe](http://eggbe.com).
 
 
 ## Feedback 
-We always welcome your feedback at [github@eggbe.com](mailto:github@eggbe.com).
+We always welcome your feedback at [phpable@eggbe.com](mailto:phpable@eggbe.com).
 
 
 ## License
