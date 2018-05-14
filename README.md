@@ -44,9 +44,10 @@ This library includes only abstract classes, traits, and interfaces implement an
 * TStringable
 
 #### Behavior
+* TCallable
 * TUnclonable
 * TUncreatable
-* TCallable
+
 
 ## Authors
 Made with love at [Eggbe](http://eggbe.com).
