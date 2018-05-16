@@ -58,4 +58,4 @@ We always welcome your feedback at [phpable@eggbe.com](mailto:phpable@eggbe.com)
 
 
 ## License
-This package is released under the [MIT license](https://github.com/able/prototypes/blob/master/LICENSE).
+This package is released under the [MIT license](https://github.com/phpable/prototypes/blob/master/LICENSE).
