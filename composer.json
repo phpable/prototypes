@@ -2,7 +2,7 @@
 	"name": "able/prototypes",
 	"version": "1.0",
 	"type": "library",
-	"keywords": ["able", "prototypes", "abstractions", "type-casting", "behavior", "universalisation"],
+	"keywords": ["phpable", "prototypes", "abstractions", "standards", "conventions"],
 	"description": "phpABLE abstractions library",
 	"license": "MIT",
 	"authors": [
