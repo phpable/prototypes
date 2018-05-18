@@ -20,5 +20,7 @@
 		"psr-4": {
 			"Able\\Prototypes\\": "src/"
 		}
-	}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }
