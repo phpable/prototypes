@@ -14,7 +14,7 @@
 	"require": {
 		"php": ">=7.1.0",
 		"eggbe/helpers": "dev-master",
-		"eggbe/reglib": "dev-master"
+		"able/reglib": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
