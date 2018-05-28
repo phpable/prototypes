@@ -3,7 +3,7 @@ The phpABLE abstractions library designed to help us make the code more universa
 
 ## Requirements
 * PHP >= 7.1.0
-
+* [Eggbe/Helpers](https://github.com/eggbe/helpers)
 
 ## Install
 Here's a pretty simple way to install Able/Prototypes into your project via [Composer](http://getcomposer.org):
