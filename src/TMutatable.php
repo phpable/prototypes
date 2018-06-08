@@ -1,14 +1,14 @@
 <?php
 namespace Able\Prototypes;
 
-use \Eggbe\Helper\Arr;
-use \Eggbe\Helper\Src;
-use \Eggbe\Helper\Str;
+use \Able\Helpers\Arr;
+use \Able\Helpers\Src;
+use \Able\Helpers\Str;
 
 trait TMutatable {
 
 	/**
-	 * Checks if any mutater exists and returns the mutated value.
+	 * Checks if mutator exists and returns the mutated value.
 	 *
 	 * @param string $prefix
 	 * Any prefix like 'get' or 'set' to separate getters and setters for example.
@@ -24,7 +24,7 @@ trait TMutatable {
 	 * Params will be returned "as is" if the requested mutator doesn't exists.
 	 */
 	protected final function mutate(string $prefix, string $name, $params = []) {
-		return method_exists($this, $method = Src::tocm(strtolower(Str::join('_', $prefix, $name , 'property'))))
+		return method_exists($this, $method = Src::tcm(strtolower(Str::join('_', $prefix, $name , 'property'))))
 			? call_user_func_array([$this, $method], Arr::cast($params)) : $params;
 	}
 }

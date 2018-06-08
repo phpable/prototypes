@@ -13,7 +13,7 @@
 	],
 	"require": {
 		"php": ">=7.1.0",
-		"eggbe/helpers": "dev-master"
+		"able/helpers": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {

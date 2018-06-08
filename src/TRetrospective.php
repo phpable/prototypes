@@ -1,7 +1,7 @@
 <?php
 namespace Able\Prototypes;
 
-use \Eggbe\Helper\Arr;
+use \Able\Helpers\Arr;
 use \Able\Prototypes\THierarchical;
 
 trait TRetrospective {
