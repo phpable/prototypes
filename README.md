@@ -47,6 +47,7 @@ This library includes only abstract classes, traits, and interfaces implement an
 * TCallable
 * TUnclonable
 * TUncreatable
+* TStatic 
 
 
 ## Authors
