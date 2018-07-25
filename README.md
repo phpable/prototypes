@@ -31,6 +31,7 @@ This library includes only abstract classes, traits, and interfaces implement an
 * ICallable 
 * IExecutable
 * IFillable
+* IIteratable
 * ISingleton
 * ISettable
 
