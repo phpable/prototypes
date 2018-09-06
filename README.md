@@ -3,7 +3,7 @@ The phpABLE abstractions library designed to help us make the code more universa
 
 ## Requirements
 * PHP >= 7.1.0
-* [Able/Helpers](https://github.com/phpable/helpers)
+* [able/helpers](https://github.com/phpable/helpers)
 
 ## Install
 There's a simple way to install ```Able/Prototypes``` into your project via [Composer](http://getcomposer.org):
