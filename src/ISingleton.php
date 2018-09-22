@@ -4,7 +4,7 @@ namespace Able\Prototypes;
 interface ISingleton {
 
 	/**
-	 * It's just the alternative name for the standard getInstance method.
+	 * It's just an alternative name of the traditional 'getInstance' method.
 	 * We had the really serious reason to rename it: the traditional name is too long.
 	 *
 	 * @return ISingleton
