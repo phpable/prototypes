@@ -39,6 +39,7 @@ This library includes only abstract classes, traits, and interfaces implement an
 #### Features 
 * THierarchical
 * TRetrospective
+* TTraitable
 
 ## Implementations 
 
