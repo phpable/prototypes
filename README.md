@@ -2,7 +2,7 @@
 The phpABLE abstractions library designed to help us make the code more universal and standardized. 
 
 ## Requirements
-* PHP >= 7.1.0
+* PHP >= 7.4.0
 * [able/helpers](https://github.com/phpable/helpers)
 
 ## Install
