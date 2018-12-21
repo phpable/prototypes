@@ -17,14 +17,14 @@ trait TMutatable {
 	 * It will be converted into the camel case
 	 * via underscores like a separator.
 	 *
-	 * @param $params
+	 * @param $value
 	 * Some parameters if needed.
 	 *
 	 * @return mixed
 	 * Params will be returned "as is" if the requested mutator doesn't exists.
 	 */
-	protected final function mutate(string $prefix, string $name, $params = []) {
+	protected final function mutate(string $prefix, string $name, $value = null) {
 		return method_exists($this, $method = Src::tcm(strtolower(Str::join('_', $prefix, $name , 'property'))))
-			? call_user_func_array([$this, $method], Arr::cast($params)) : $params;
+			? call_user_func([$this, $method], $value) : $value;
 	}
 }
