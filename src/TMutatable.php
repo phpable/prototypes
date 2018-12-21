@@ -1,7 +1,6 @@
 <?php
 namespace Able\Prototypes;
 
-use \Able\Helpers\Arr;
 use \Able\Helpers\Src;
 use \Able\Helpers\Str;
 
