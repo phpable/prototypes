@@ -20,7 +20,7 @@ trait TMutatable {
 	 * Some parameters if needed.
 	 *
 	 * @return mixed
-	 * Params will be returned "as is" if the requested mutator doesn't exists.
+	 * The value will be returned "as is" if the requested mutator doesn't exists.
 	 */
 	protected final function mutate(string $prefix, string $name, $value = null) {
 		return method_exists($this, $method = Src::tcm(strtolower(Str::join('_', $prefix, $name , 'property'))))
