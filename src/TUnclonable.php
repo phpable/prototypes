@@ -7,7 +7,7 @@ trait TUnclonable {
 	 * @throws \Exception
 	 */
 	public final function __clone(){
-		throw new \Exception('Can\'t clone an unclonable object!');
+		throw new \Exception(sprintf('Can not clone an unclonable object of the class: %s!', static::class));
 	}
 
 }

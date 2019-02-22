@@ -1,6 +1,5 @@
 {
 	"name": "able/prototypes",
-	"version": "1.0",
 	"type": "library",
 	"keywords": ["phpable", "prototypes", "abstractions", "standards", "conventions"],
 	"description": "phpABLE abstractions library",

@@ -4,7 +4,7 @@ namespace Able\Prototypes;
 interface IExecutable {
 
 	/**
-	 * @return string
+	 * @return mixed
 	 */
 	public function execute();
 }

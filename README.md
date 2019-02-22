@@ -6,7 +6,7 @@ The phpABLE abstractions library designed to help us make the code more universa
 * [Able/Helpers](https://github.com/phpable/helpers)
 
 ## Install
-Here's a pretty simple way to install Able/Prototypes into your project via [Composer](http://getcomposer.org):
+There's a simple way to install ```Able/Prototypes``` into your project via [Composer](http://getcomposer.org):
 
 ```bash
 composer require able/prototypes
@@ -49,17 +49,6 @@ This library includes only abstract classes, traits, and interfaces implement an
 #### Behavior
 * TCallable
 * TUnclonable
-* TUncreatable
-* TStatic 
-
-
-## Authors
-Made with love at [Eggbe](http://eggbe.com).
-
-
-## Feedback 
-We always welcome your feedback at [phpable@eggbe.com](mailto:phpable@eggbe.com).
-
 
 ## License
 This package is released under the [MIT license](https://github.com/phpable/prototypes/blob/master/LICENSE).
