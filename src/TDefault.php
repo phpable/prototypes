@@ -13,7 +13,7 @@ trait TDefault {
 	 */
 	protected final function default(string $name, $default = null) {
 		return defined(
-			$_ = sprintf('static::default%sValue', $name))
+			$_ = sprintf('static::default%sValue', Src::tcm($name)))
 
 				? constant($_) : $default;
 	}
