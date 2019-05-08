@@ -1,12 +1,14 @@
 <?php
 namespace Able\Prototypes;
 
+use \Generator;
+
 interface IIteratable {
 
 	/**
-	 * @return \Generator
+	 * @return Generator
 	 */
-	public function iterate(): \Generator;
+	public function iterate(): Generator;
 
 }
 
