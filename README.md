@@ -21,7 +21,6 @@ This library includes only abstract classes, traits, and interfaces implement an
 * IArrayable
 * IArrayable
 * IPresentable
-* IRestorable
 * IStringable
 
 #### Behavior
