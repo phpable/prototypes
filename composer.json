@@ -1,7 +1,7 @@
 {
 	"name": "able/prototypes",
 	"type": "library",
-	"keywords": ["phpable", "prototypes", "abstractions", "standards", "conventions"],
+	"keywords": ["phpable", "prototypes", "abstractions", "conventions"],
 	"description": "phpABLE abstractions library",
 	"license": "MIT",
 	"authors": [
@@ -11,14 +11,12 @@
 		}
 	],
 	"require": {
-		"php": ">=7.4.0",
+		"php": ">=8.0.0",
 		"able/helpers": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
 			"Able\\Prototypes\\": "src/"
 		}
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	}
 }
