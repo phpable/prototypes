@@ -8,6 +8,6 @@ interface ICallable {
 	 * @param array $Args
 	 * @return mixed
 	 */
-	public function __call(string $name, array $Args);
+	public function __call(string $name, array $Args): mixed;
 }
 

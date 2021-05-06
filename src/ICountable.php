@@ -6,5 +6,5 @@ interface ICountable extends \Countable {
 	/**
 	 * @return int
 	 */
-	public function count():int;
+	public function count(): int;
 }

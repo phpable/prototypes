@@ -7,5 +7,4 @@ interface IArrayable {
 	 * @return array
 	 */
 	public function toArray(): array;
-
 }
