@@ -4,8 +4,10 @@ namespace Able\Prototypes;
 interface IFillable {
 
 	/**
-	 * Fill object values via array.
+	 * Fills object values via an array.
+	 *
 	 * @param array $Values
+	 * @return void
 	 */
-	public function fill(array $Values);
+	public function fill(array $Values): void;
 }

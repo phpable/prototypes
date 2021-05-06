@@ -4,7 +4,7 @@ namespace Able\Prototypes;
 interface IJsonable {
 
 	/**
-	 * @return static
+	 * @return string
 	 */
 	public function toJson(): string;
 }

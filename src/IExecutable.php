@@ -6,5 +6,5 @@ interface IExecutable {
 	/**
 	 * @return mixed
 	 */
-	public function execute();
+	public function execute(): mixed;
 }
