@@ -7,5 +7,4 @@ interface IStringable {
 	 * @return string
 	 */
 	public function toString() : string;
-
 }

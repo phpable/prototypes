@@ -8,13 +8,13 @@ interface ISettable {
 	 * @param $value
 	 * @return void
 	 */
-	public function __set(string $name, $value);
+	public function __set(string $name, $value): void;
 
 	/**
 	 * @param string $name
 	 * @return void
 	 */
-	public function __unset(string $name);
+	public function __unset(string $name): void;
 
 }
 
