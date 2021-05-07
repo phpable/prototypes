@@ -1,6 +1,8 @@
 <?php
 namespace Able\Prototypes;
 
+use \Exception;
+
 trait TStringable {
 
 	/**
@@ -10,9 +12,9 @@ trait TStringable {
 
 	/**
 	 * @return string
+	 * @throws Exception
 	 */
 	public final function __toString() : string {
 		return $this->toString();
 	}
-
 }

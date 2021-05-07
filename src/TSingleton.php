@@ -8,7 +8,7 @@ trait TSingleton {
 	/**
 	 * @var array
 	 */
-	private static $Instances = [];
+	private static array $Instances = [];
 
 	/**
 	 * @return ISingleton
