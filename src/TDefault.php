@@ -9,9 +9,9 @@ trait TDefault {
 	 * @param string $name
 	 * @param mixed $default
 	 *
-	 * @return mixed|null
+	 * @return mixed
 	 */
-	protected final function default(string $name, $default = null) {
+	protected final function default(string $name, mixed $default = null): mixed {
 		return defined(
 			$_ = sprintf('static::default%sValue', Src::tcm($name)))
 

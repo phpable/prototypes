@@ -4,7 +4,7 @@ namespace Able\Prototypes;
 interface IPresentable {
 
 	/**
-	 * Returns an item representation.
+	 * Returns an object represented like an array.
 	 * @return array
 	 */
 	public function present(): array;
