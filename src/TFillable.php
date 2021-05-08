@@ -1,22 +1,25 @@
 <?php
 namespace Able\Prototypes;
 
+use \Exception;
+
 trait TFillable {
 
 	/**
-	 * Fill object values via array.
+	 * Fills object values via an array.
 	 *
 	 * @param array $Values
-	 * @throws \Exception
+	 * @return void
+	 *
+	 * @throws Exception
 	 */
-	public function fill(array $Values) {
+	public function fill(array $Values): void {
 		foreach ($Values as $name => $value){
 			if (!property_exists($this, $name)){
-				throw new \Exception('Undefined property "' . $name . '"!');
+				throw new Exception('Undefined property "' . $name . '"!');
 			}
 
 			$this->{$name} = $value;
 		}
 	}
-
 }

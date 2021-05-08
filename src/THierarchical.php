@@ -9,7 +9,7 @@ trait THierarchical {
 	 * @attention The called class name is included.
 	 * @return array
 	 */
-	protected final static function hierarchy(){
+	protected final static function hierarchy(): array{
 		$Hierarchy = [get_called_class()];
 
 		while(class_exists($class = get_parent_class($Hierarchy[count($Hierarchy) -1]))){

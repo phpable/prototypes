@@ -13,16 +13,15 @@ trait TMutatable {
 	 * Any prefix like 'get' or 'set' to separate getters and setters for example.
 	 *
 	 * @param string $name
-	 * It will be converted into the camel case
-	 * via underscores like a separator.
+	 * It will be camelcased considering an underscore like a separator.
 	 *
 	 * @param $value
-	 * Some parameters if needed.
+	 * Some parameter if needed.
 	 *
 	 * @return mixed
 	 * The value will be returned "as is" if the requested mutator doesn't exist.
 	 */
-	protected final function mutate(string $prefix, string $name, $value = null) {
+	protected final function mutate(string $prefix, string $name, mixed $value = null): mixed {
 		return method_exists($this, $method = Src::tcm(strtolower(Str::join('_', $prefix, $name , 'property'))))
 			? call_user_func([$this, $method], $value) : $value;
 	}
