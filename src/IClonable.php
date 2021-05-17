@@ -4,7 +4,7 @@ namespace Able\Prototypes;
 interface IClonable {
 
 	/**
-	 * @return mixed
+	 * @return void
 	 */
-	public function __clone(): mixed;
+	public function __clone(): void;
 }
