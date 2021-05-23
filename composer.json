@@ -12,7 +12,7 @@
 	],
 	"require": {
 		"php": ">=8.0.0",
-		"able/helpers": "^0.8.1"
+		"able/helpers": "^0.9.0"
 	},
 	"autoload": {
 		"psr-4": {
