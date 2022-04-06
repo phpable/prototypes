@@ -14,7 +14,7 @@ trait TTraitable {
  	 * @return Generator
 	 */
 	protected final function propagate(string $prefix, ...$args): Generator {
-		foreach (array_filter(Arr::make(Src::traits($this), function($_) use ($prefix ) {
+		foreach (array_filter(Arr::make(Src::traits($this), function($_) use ($prefix) {
 			return sprintf('%s%s', $prefix, Src::unpref($_));
 		}), function($_){
 			return method_exists($this, $_);
